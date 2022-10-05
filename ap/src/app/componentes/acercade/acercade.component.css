@@ -15,7 +15,7 @@ div{
         box-shadow: 3px 3px 3px grey;
     }
 }
-@media (max-width: 576px){
+@media (max-width: 575px){
     #fperfil{
         position: absolute;
         width: 15%;
@@ -24,7 +24,6 @@ div{
     }
 }
 
-/*etiqueta nombre*/
 #nombre{
     font-weight:  bold;
     margin-top:  25%;
