@@ -16,11 +16,16 @@ img{
     border-width: medium;
 }
 /*--- vista de celular---*/
-.container{
-    flex-direction: column;
-}
-.social{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media(max-width: 575px){
+    .container{
+          flex-direction: column;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social img{
+        margin: 0.2em;
+    }
 }
